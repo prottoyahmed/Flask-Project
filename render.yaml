@@ -1,0 +1,9 @@
+type: web
+name: prottoy-portfolio-site
+env: python
+
+buildCommand: pip install -r requirements.txt
+startCommand: gunicorn app:app
+
+plan: free
+region: singapore
